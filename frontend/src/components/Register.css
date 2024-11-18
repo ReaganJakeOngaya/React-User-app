@@ -1,0 +1,69 @@
+/* General reset and styling for the body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+/* Styling for the registration form container */
+.register-form {
+  background: #ffffff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Input fields styling */
+.register-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+.register-form input:focus {
+  border-color: #ff7e5f;
+  outline: none;
+}
+
+/* Submit button styling */
+.register-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #ff7e5f;
+  color: #ffffff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-form button:hover {
+  background: #feb47b;
+}
+
+/* Optional: Extra styling for error messages */
+.register-form .error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}

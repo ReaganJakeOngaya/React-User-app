@@ -1,0 +1,101 @@
+/* General layout and background */
+.dashboard {
+  background-color: #6ba4dd;
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Profile and notes sections container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Profile section styling */
+.profile, .notes {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.profile h2, .notes h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Profile details text styling */
+.profile p {
+  font-size: 1rem;
+  color: #555;
+  margin: 8px 0;
+}
+
+.profile strong {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Notes section styling */
+.notes .add-note {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+/* Note input styling */
+.notes input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+/* Add note button styling */
+.notes button {
+  background-color: #4a90e2;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.notes button:hover {
+  background-color: #357abd;
+}
+
+/* Note item styling */
+.note-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.note-item p {
+  flex: 1;
+  color: #333;
+}
+
+.note-item button {
+  color: #e74c3c;
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.note-item button:hover {
+  color: #c0392b;
+}
